@@ -30,7 +30,7 @@ function App() {
               const response = await fetch('https://www.balldontlie.io/api/v1/players/447')
               const data = await response.json()
               console.log('data', data)
-              setStats(testArray)
+              setStats(data)
               // const dataArr = []
               // dataArr.splice(0,0,data)
               // console.log('dataarr', dataArr)
